@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(135deg, #FFF2D7 0%, #FFE0B5 40%, #D4BDAC 100%);
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.profile h2 {
+  color: chocolate;
+  margin-top: 20px;
+}
+
+.profile h4 {
+  color: chocolate;
+}
+.BIODATA {
+   background-color: #fff;
+}
+.btn-brown {
+  background-color: #8B5E3C;
+  color: white;
+  border: none;
+}
+
+.btn-brown:hover {
+  background-color: #6f472d;
+  color: white;
+}
+/* Fade in seluruh halaman */
+body {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.BIODATA {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.biodata-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  max-width: 700px;
+}
+
+.biodata-card h3 {
+  color: #8B5E3C;
+  border-bottom: 2px solid #8B5E3C;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.skills-title {
+    background-color: #8b5e3c; /* coklat */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.skill-list li{
+    padding:8px;
+    margin:6px;
+    background-color:#f5e6d3;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.skill-list li:hover{
+    background-color:#d4bdac;
+    transform:scale(1.05);
+}
+.BIODATA{
+background-color:#fff;
+padding:40px;
+border-radius:20px;
+box-shadow:0 6px 20px rgba(0,0,0,0.1);
+border:3px solid #8B5E3C;
+max-width:900px;
+margin:auto;
+margin-top:50px;
+margin-bottom:50px;
+}
+.BIODATA h1{
+color:#8B5E3C;
+font-weight:bold;
+margin-bottom:25px;
+position:relative;
+}
+
+.BIODATA h1::after{
+content:"";
+display:block;
+width:120px;
+height:3px;
+background:#8B5E3C;
+margin:10px auto;
+}
+section{
+margin-top:40px;
+}
